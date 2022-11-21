@@ -16,14 +16,14 @@ echo > .nojekyll
 # echo 'www.example.com' > CNAME
 
 git init
-git checkout -B main
+git checkout -B master
 git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
+# if you are deploying to https://zPopeyex.github.io/rubricasUSC
 # git push -f git@github.com:zPopeyex/rubricasUSC.git main:gh-pages
 
 cd -
